@@ -1,0 +1,62 @@
+name: Validate & Build Lore
+
+on:
+  pull_request:
+    paths:
+      - "theories/**"
+      - "schema/**"
+      - "scripts/**"
+  push:
+    branches:
+      - main
+    paths:
+      - "theories/**"
+      - "schema/**"
+      - "scripts/**"
+
+jobs:
+  validate:
+    name: Validate theories
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate schema (no dist write)
+        run: node scripts/build.js --validate-only --verbose
+
+  build:
+    name: Rebuild dist/
+    needs: validate
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build JSONL + index
+        run: node scripts/build.js --verbose
+
+      - name: Commit dist/ if changed
+        run: |
+          git config user.name  "toadgang-bot"
+          git config user.email "bot@toadgang-lore"
+          git add dist/
+          if git diff --cached --quiet; then
+            echo "dist/ unchanged — nothing to commit."
+          else
+            git commit -m "chore: rebuild dist/ [skip ci]"
+            git push
+          fi

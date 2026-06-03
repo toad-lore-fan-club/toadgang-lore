@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-03T18:49:41.977Z",
+  "total_theories": 2,
+  "categories": [
+    "origin",
+    "toadgod"
+  ],
+  "confidence_avg": 0.64,
+  "theories": [
+    {
+      "slug": "primordial-pond",
+      "title": "The Primordial Pond",
+      "category": "origin",
+      "confidence": 0.72,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "origin",
+        "water",
+        "creation",
+        "silence"
+      ],
+      "last_updated": "2025-01-15"
+    },
+    {
+      "slug": "the-silent-croak",
+      "title": "The Silent Croak",
+      "category": "toadgod",
+      "confidence": 0.55,
+      "safety": "toadgod hinted · interpret with care",
+      "tags": [
+        "toadgod",
+        "communication",
+        "silence",
+        "signal"
+      ],
+      "last_updated": "2025-01-20"
+    }
+  ]
+}
