@@ -1,39 +1,173 @@
 {
-  "generated_at": "2026-06-03T19:46:45.821Z",
-  "total_theories": 2,
+  "generated_at": "2026-06-04T21:28:39.910Z",
+  "total_theories": 9,
   "categories": [
-    "origin",
+    "artifact",
+    "faction",
+    "geography",
+    "prophecy",
     "toadgod"
   ],
-  "confidence_avg": 0.64,
+  "confidence_avg": 0.48,
   "theories": [
     {
-      "slug": "primordial-pond",
-      "title": "The Primordial Pond",
-      "category": "origin",
-      "confidence": 0.72,
+      "slug": "taboshi-same-but-different",
+      "title": "Same But Different — The TABOSHI / taboshi1 Dual-Mint as a Sushi-Style Rebrand Echo",
+      "category": "artifact",
+      "confidence": 0.3,
       "safety": "speculative · not confirmed",
       "tags": [
-        "origin",
-        "water",
-        "creation",
-        "silence"
+        "taboshi",
+        "taboshi1",
+        "same-but-different",
+        "sushi",
+        "dual-mint",
+        "erc-1155"
       ],
-      "last_updated": "2025-01-15"
+      "last_updated": "2026-06-04"
     },
     {
-      "slug": "the-silent-croak",
-      "title": "The Silent Croak",
+      "slug": "sushi-chef-nomi-uniswap-mirror",
+      "title": "The Sushi Choice — Why TobyWorld Echoes the Chef Nomi / Uniswap Playbook",
+      "category": "faction",
+      "confidence": 0.55,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "sushiswap",
+        "uniswap",
+        "chef-nomi",
+        "liquidity",
+        "satoswap",
+        "vampire-attack"
+      ],
+      "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "tobyworld-playable-metaverse",
+      "title": "TobyWorld Is a Game — The 8-Bit 3D Renders as Pre-Production Assets, Not Just Art",
+      "category": "geography",
+      "confidence": 0.4,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "tobyworld",
+        "metaverse",
+        "video-game",
+        "8-bit",
+        "3d-render",
+        "loreland",
+        "land-deeds",
+        "p2e",
+        "dgen1"
+      ],
+      "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "satoby-btc-yield-bridge",
+      "title": "Satoby as the BTC Swap — Toby↔Bitcoin Real-Asset Bridge via Satoswap",
+      "category": "prophecy",
+      "confidence": 0.55,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "satoby",
+        "satoswap",
+        "cbbtc",
+        "bitcoin",
+        "rwa-swap",
+        "yield",
+        "btc-bridge"
+      ],
+      "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "satoby-flatcoin-thesis",
+      "title": "Satoby and the Coinbase Flatcoin Thesis — Toby as the CPI-Pegged Endgame",
+      "category": "prophecy",
+      "confidence": 0.45,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "flatcoin",
+        "satoby",
+        "coinbase",
+        "brian-armstrong",
+        "cpi",
+        "stablecoin",
+        "rwa-adjacent"
+      ],
+      "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "satoswap-uniswap-killer",
+      "title": "Satoswap — The Fourth Rune as a Uniswap-Killer DEX, Echoing the Sushi Fork",
+      "category": "prophecy",
+      "confidence": 0.5,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "satoswap",
+        "uniswap",
+        "dex",
+        "rune4",
+        "fourth-rune",
+        "v4-hooks",
+        "chainlink",
+        "cross-chain"
+      ],
+      "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "toby-base-network-token",
+      "title": "Toby Is the Base Network Token — The @base \"Network Token\" Repost as the Keystone Signal",
+      "category": "prophecy",
+      "confidence": 0.5,
+      "safety": "toadgod hinted · interpret with care",
+      "tags": [
+        "base",
+        "coinbase",
+        "network-token",
+        "native-token",
+        "gas-token",
+        "airdrop",
+        "brian-armstrong"
+      ],
+      "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "toby-schelling-oracle-vitalik",
+      "title": "Proof of Time as a Schelling Oracle — Toby as Toadgod's Answer to Vitalik's P+ε Problem",
+      "category": "prophecy",
+      "confidence": 0.5,
+      "safety": "toadgod hinted · interpret with care",
+      "tags": [
+        "schelling-point",
+        "oracle",
+        "vitalik",
+        "p-epsilon",
+        "proof-of-time",
+        "proof-of-trust",
+        "patience",
+        "slashing",
+        "bribery",
+        "geth",
+        "ethereum-foundation",
+        "farcaster"
+      ],
+      "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "sat0ai-uae-origin",
+      "title": "The sat0ai Account — Repurposed Handle, UAE Location, and the Skunkworks AI Layer",
       "category": "toadgod",
       "confidence": 0.55,
       "safety": "toadgod hinted · interpret with care",
       "tags": [
-        "toadgod",
-        "communication",
-        "silence",
-        "signal"
+        "sat0ai",
+        "satoai",
+        "uae",
+        "account-history",
+        "ai-agent",
+        "proof-of-time",
+        "skunkworks"
       ],
-      "last_updated": "2025-01-20"
+      "last_updated": "2026-06-04"
     }
   ]
 }
