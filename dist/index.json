@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T21:28:39.910Z",
-  "total_theories": 9,
+  "generated_at": "2026-06-04T21:29:29.650Z",
+  "total_theories": 10,
   "categories": [
     "artifact",
     "faction",
@@ -8,7 +8,7 @@
     "prophecy",
     "toadgod"
   ],
-  "confidence_avg": 0.48,
+  "confidence_avg": 0.47,
   "theories": [
     {
       "slug": "taboshi-same-but-different",
@@ -151,6 +151,23 @@
         "farcaster"
       ],
       "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "chainlink-seven-toby-oracle-signal",
+      "title": "Chainlink Seven Toby Oracle Signal",
+      "category": "toadgod",
+      "confidence": 0.36,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "chainlink",
+        "oracle",
+        "seven",
+        "toby",
+        "satoai",
+        "solving-world",
+        "visual-signal"
+      ],
+      "last_updated": "2026-06-03"
     },
     {
       "slug": "sat0ai-uae-origin",
