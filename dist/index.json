@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T21:29:29.650Z",
-  "total_theories": 10,
+  "generated_at": "2026-10-07T18:54:19.612Z",
+  "total_theories": 11,
   "categories": [
     "artifact",
     "faction",
@@ -8,8 +8,28 @@
     "prophecy",
     "toadgod"
   ],
-  "confidence_avg": 0.47,
+  "confidence_avg": 0.49,
   "theories": [
+    {
+      "slug": "lore-land-deeds-twpot-forge",
+      "title": "Lore Land Deeds & the TWPOT Genesis Forge",
+      "category": "artifact",
+      "confidence": 0.72,
+      "safety": "toadgod hinted · interpret with care",
+      "tags": [
+        "lore-deed",
+        "twpot",
+        "genesis-forge",
+        "productionnft2",
+        "taboshi",
+        "patience",
+        "erc-6551",
+        "tobyworld",
+        "land",
+        "artifact"
+      ],
+      "last_updated": "2026-10-07"
+    },
     {
       "slug": "taboshi-same-but-different",
       "title": "Same But Different — The TABOSHI / taboshi1 Dual-Mint as a Sushi-Style Rebrand Echo",
