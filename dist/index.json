@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T18:54:19.612Z",
-  "total_theories": 11,
+  "generated_at": "2026-10-08T22:33:52.626Z",
+  "total_theories": 14,
   "categories": [
     "artifact",
     "faction",
@@ -8,7 +8,7 @@
     "prophecy",
     "toadgod"
   ],
-  "confidence_avg": 0.49,
+  "confidence_avg": 0.45,
   "theories": [
     {
       "slug": "lore-land-deeds-twpot-forge",
@@ -82,6 +82,26 @@
       "last_updated": "2026-06-04"
     },
     {
+      "slug": "sato-fees-to-land",
+      "title": "Sato Fees Swirl Back — Do Satoswap Fees Flow to Lore Land?",
+      "category": "prophecy",
+      "confidence": 0.25,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "sato",
+        "satoswap",
+        "fees",
+        "land",
+        "lore-land",
+        "erc-6551",
+        "satoby",
+        "patience",
+        "rune3",
+        "koi"
+      ],
+      "last_updated": "2026-10-08"
+    },
+    {
       "slug": "satoby-btc-yield-bridge",
       "title": "Satoby as the BTC Swap — Toby↔Bitcoin Real-Asset Bridge via Satoswap",
       "category": "prophecy",
@@ -134,6 +154,25 @@
       "last_updated": "2026-06-04"
     },
     {
+      "slug": "spcx-ladder-elon-critical-mass",
+      "title": "SPCX Ladder Bands & Elon Critical Mass",
+      "category": "prophecy",
+      "confidence": 0.32,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "spcx",
+        "ladder",
+        "band",
+        "satoswap",
+        "toby",
+        "arb",
+        "sat0",
+        "elon",
+        "prophecy"
+      ],
+      "last_updated": "2026-10-07"
+    },
+    {
       "slug": "toby-base-network-token",
       "title": "Toby Is the Base Network Token — The @base \"Network Token\" Repost as the Keystone Signal",
       "category": "prophecy",
@@ -171,6 +210,25 @@
         "farcaster"
       ],
       "last_updated": "2026-06-04"
+    },
+    {
+      "slug": "breathe-aero-hush",
+      "title": "Breathe Aero Hush — Aerodrome, Sato Fees, or Just a Breath?",
+      "category": "toadgod",
+      "confidence": 0.3,
+      "safety": "speculative · not confirmed",
+      "tags": [
+        "aero",
+        "hush",
+        "aerodrome",
+        "base",
+        "scroll",
+        "satoswap",
+        "lotus",
+        "breathe",
+        "toadgod"
+      ],
+      "last_updated": "2026-10-08"
     },
     {
       "slug": "chainlink-seven-toby-oracle-signal",
