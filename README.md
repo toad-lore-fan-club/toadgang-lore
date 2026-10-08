@@ -13,6 +13,7 @@ theories/     Markdown source files — one per theory, organized by category
 schema/       JSON schema that every theory frontmatter must pass
 scripts/      Build script that generates dist/ from theories/
 dist/         Auto-generated agent artifacts (do not edit manually)
+assets/       Infographics and other supporting media
 ```
 
 ### dist/ files
