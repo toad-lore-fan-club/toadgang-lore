@@ -39,7 +39,7 @@ Readings and their sources:
 2. A hint at LP pairing and locking: [551412](https://t.me/toadgang/551412), [565981](https://t.me/toadgang/565981)
 3. A "hush protocol" gate waiting on Base/Aero thresholds: [568663](https://t.me/toadgang/568663)
 4. Sato / Satoswap routing Aero fees to land holders: [655582](https://t.me/toadgang/655582), [652534](https://t.me/toadgang/652534), [664811](https://t.me/toadgang/664811). The Satoswap thread also references @ahushbeforedawn ([652534](https://t.me/toadgang/652534)).
-5. Lotus Router clue: [633220](https://t.me/toadgang/633220)
+5. Lotus Router and Dromos thread: a Dromos dev's GitHub showed interest in a "Lotus Router," with a faint lotus behind Satoswap on the scroll ([633220](https://t.me/toadgang/633220)). Follow-ons: "dromos" as Greek for a long entrance passage, tied to "the coming gate" ([649528](https://t.me/toadgang/649528)); DromosLabs and Tobyworld parallels ([588059](https://t.me/toadgang/588059)); DromosLabs liking Tobyworld posts on X ([649483](https://t.me/toadgang/649483), [667135](https://t.me/toadgang/667135)); and the Dromos Labs CEO being a core Aerodrome contributor ([667134](https://t.me/toadgang/667134)).
 6. Hush as land keeper / flight imagery: [656887](https://t.me/toadgang/656887)
 7. Counter-reading, "don't compare Tobyworld to Aerodrome," posted a day after a large X post linking them: [639252](https://t.me/toadgang/639252), [669929](https://t.me/toadgang/669929), [626719](https://t.me/toadgang/626719)
 8. Mindfulness reading, pause and breathe: [626730](https://t.me/toadgang/626730), [632158](https://t.me/toadgang/632158)
