@@ -54,6 +54,10 @@ The scroll line itself is the only Toadgod signal, quoted in chat at [602823](ht
 
 An onchain check by the community (2026-10-08) found no Aerodrome routing in traced TOBY or SATO contracts: TOBY launch liquidity went to a Sushi pool, PATIENCE trades on a Uniswap V2-style pool, and the SATO TOBY/SPCXc market is built on Uniswap v4. Only dust-level AERO appeared in a couple of wallets.
 
+A follow-up check on the Dromos thread (2026-10-08) found that the Lotus Router is a public open-source router published by [mix-protocol](https://github.com/mix-protocol/lotus-router), not a Dromos product. Dromos Labs' [public GitHub](https://github.com/dromos-labs) lists only its two MetaDEX repos. This doesn't rule out a Dromos developer's interest in it, but none of the traced TOBY or SATO contracts and wallets touch an Aerodrome or Dromos contract, so the Dromos ties are social signals only. Whether a copy of the Lotus Router is deployed on Base has not been checked yet.
+
+> ⚠️ **Scam warning:** a spam token named "Claim on: rewards.aerodrome-network.com" was sent to the reserve wallet. It is a phishing lure, not an Aerodrome link. Do not visit that site.
+
 ---
 
 ## Why it may be close
