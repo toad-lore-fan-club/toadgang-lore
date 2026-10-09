@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c1715">
+  <meta name="description" content="Explore the stories, theories, evidence and mysteries preserved by Toadgang.">
+  <title>The Living Lore · Toadgang Archive</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#library">Skip to the lore library</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Toadgang Lore Archive home">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span class="brand-text"><strong>TOADGANG</strong><small>THE LORE ARCHIVE</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#library" class="nav-active">The Archive</a>
+        <a href="#paths">Follow the Threads</a>
+        <a href="#about">The Keeper's Note</a>
+      </nav>
+      <a class="repo-link" href="https://github.com/toad-lore-fan-club/toadgang-lore" target="_blank" rel="noopener noreferrer">View the source <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> THE POND REMEMBERS <span class="eyebrow-line"></span> VOL. 001</div>
+        <h1 id="hero-title">Every ripple<br>tells <em>a story.</em></h1>
+        <p class="hero-description">A living collection of Tobyworld's whispers, symbols, and wildest theories. Collected by the Toads, explored by the curious.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#library">Enter the archive <span aria-hidden="true">↗</span></a>
+          <button type="button" class="button button-ghost" id="random-theory">✧ &nbsp; Surprise me</button>
+        </div>
+        <div class="hero-micro"><span class="little-flower" aria-hidden="true">✺</span> Many voices. Many theories. One pond.</div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a glowing lotus and still rings of pond water" role="img">
+        <div class="orbital-caption orbital-caption-a">✦ &nbsp; PATIENCE</div>
+        <div class="orbital-caption orbital-caption-b">TOBYWORLD &nbsp; ✦</div>
+        <div class="orbital-caption orbital-caption-c">LORE &nbsp; / &nbsp; 777</div>
+        <div class="pond-sky"></div>
+        <div class="pond-halo halo-one"></div>
+        <div class="pond-halo halo-two"></div>
+        <div class="pond-halo halo-three"></div>
+        <svg class="lotus-art" viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <radialGradient id="glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#d9ecb4" stop-opacity="0.7"/><stop offset="1" stop-color="#cce2a0" stop-opacity="0"/></radialGradient>
+            <linearGradient id="petal" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#d9e7bd"/><stop offset="0.52" stop-color="#a9c69b"/><stop offset="1" stop-color="#538b79"/></linearGradient>
+            <linearGradient id="petalGold" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f5dfaa"/><stop offset="1" stop-color="#c5a66d"/></linearGradient>
+          </defs>
+          <circle cx="220" cy="236" r="154" fill="url(#glow)" opacity=".42"/>
+          <ellipse cx="220" cy="298" rx="138" ry="26" fill="none" stroke="#b6d29d" stroke-width="1.6" opacity=".5"/>
+          <ellipse cx="220" cy="298" rx="184" ry="47" fill="none" stroke="#b6d29d" stroke-width="1" opacity=".24"/>
+          <path d="M218 285C178 271 151 241 142 192c42 11 71 42 78 78 9-45 37-71 78-80-10 45-39 78-80 95z" fill="#4d8a72" opacity=".87"/>
+          <path d="M220 279C183 245 179 192 219 124c44 68 41 120 1 155z" fill="url(#petalGold)"/>
+          <path d="M217 279C158 260 139 219 134 169c48 18 76 53 83 110z" fill="url(#petal)"/>
+          <path d="M224 279C282 257 300 216 306 169c-48 19-76 54-82 110z" fill="url(#petal)"/>
+          <path d="M215 290C159 300 117 273 93 236c55-6 103 14 122 54z" fill="#5d977c" opacity=".91"/>
+          <path d="M225 290C281 301 324 272 346 236c-54-6-102 14-121 54z" fill="#5d977c" opacity=".91"/>
+          <path d="M220 289C196 270 195 226 220 179c25 47 25 91 0 110z" fill="#f0dcac" opacity=".9"/>
+          <path d="M168 295Q219 308 273 295" fill="none" stroke="#f0e3bf" stroke-width="2" opacity=".75"/>
+          <circle cx="126" cy="125" r="2" fill="#efdaaa"/><circle cx="329" cy="139" r="3" fill="#efdaaa"/><circle cx="90" cy="219" r="2" fill="#efdaaa"/><circle cx="345" cy="203" r="2" fill="#efdaaa"/>
+          <path d="M318 95v20m-10-10h20M115 154v16m-8-8h16" stroke="#f4db9e" stroke-width="1.2" opacity=".6"/>
+        </svg>
+        <span class="art-corner corner-tl">✴</span><span class="art-corner corner-tr">✳</span><span class="art-corner corner-bl">✳</span><span class="art-corner corner-br">✴</span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Archive summary">
+      <div class="shell ticker-inner">
+        <div class="ticker-item"><span class="ticker-glyph">✦</span><strong id="stat-theories">—</strong><span>STORIES COLLECTED</span></div>
+        <div class="ticker-divider"></div>
+        <div class="ticker-item"><span class="ticker-glyph">✳</span><strong id="stat-categories">—</strong><span>PATHS TO EXPLORE</span></div>
+        <div class="ticker-divider"></div>
+        <div class="ticker-quote">“The pond was there before the sound.”</div>
+      </div>
+    </section>
+
+    <section class="library shell" id="library" aria-labelledby="library-title">
+      <div class="section-topline"><span>01 / THE LIVING ARCHIVE</span><span class="topline-decoration">✳ &nbsp;✳ &nbsp;✳</span></div>
+      <div class="library-heading">
+        <div><h2 id="library-title">Stories from <em>the deep.</em></h2><p>Follow a thread. Find a mystery. Every story belongs to the pond.</p></div>
+        <div class="library-count"><span class="count-number" id="shown-count">—</span><span>DISCOVERIES</span></div>
+      </div>
+      <div class="controls">
+        <label class="search-field" for="search-input"><span class="search-icon" aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search the pond — Toby, Patience, lore..." autocomplete="off"><kbd>/</kbd></label>
+        <label class="sort-field" for="sort-select"><span>Sort by</span><select id="sort-select"><option value="recent">Recently updated</option><option value="confidence">Community confidence</option><option value="title">A → Z</option></select></label>
+      </div>
+      <div class="chips" id="category-chips" role="group" aria-label="Filter by category"></div>
+      <div class="library-message" id="library-message" role="status" aria-live="polite">Gathering the stories from the pond…</div>
+      <div class="cards" id="lore-cards" aria-live="off"></div>
+      <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">☾</span><h3>No ripples found</h3><p>Try another word, or explore a different category.</p><button type="button" class="button button-ghost" id="clear-search">Show all stories</button></div>
+    </section>
+
+    <section class="paths shell" id="paths" aria-labelledby="paths-title">
+      <div class="paths-pattern" aria-hidden="true"></div>
+      <div class="paths-copy"><span class="mini-eyebrow">02 / FOLLOW THE THREADS</span><h2 id="paths-title">No story <em>stands alone.</em></h2><p>Open any lore card to find its connections: shared symbols, related stories, and competing interpretations. One thread can lead to a whole new corner of the pond.</p><a href="#library" class="text-link">Begin exploring <span aria-hidden="true">↗</span></a></div>
+      <div class="paths-glyph" aria-hidden="true"><span class="path-ring ring-a"></span><span class="path-ring ring-b"></span><span class="path-ring ring-c"></span><span class="path-dot dot-a">✧</span><span class="path-dot dot-b">✳</span><span class="path-dot dot-c">✦</span><span class="path-center">∞</span></div>
+    </section>
+
+    <section class="keeper shell" id="about" aria-labelledby="keeper-title">
+      <div class="keeper-seal" aria-hidden="true">✺</div>
+      <div class="keeper-content"><div class="mini-eyebrow">03 / THE KEEPER'S NOTE</div><h2 id="keeper-title">Lore, not scripture.</h2><p>These stories preserve what the Toadgang community has wondered, debated, and discovered. Confidence scores reflect community judgment—not probabilities or official confirmation. Original sources and counterarguments are part of every story.</p><p class="keeper-strong">Curiosity is welcome. Certainty must be earned.</p></div>
+      <a href="https://github.com/toad-lore-fan-club/toadgang-lore/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" class="button button-outline">Contribute a story ↗</a>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><div class="footer-brand">✳ <strong>TOADGANG LORE</strong><span>— A COMMUNITY ARCHIVE</span></div><p>Built for the Toads. Rooted in the original <a href="https://github.com/toad-lore-fan-club/toadgang-lore" target="_blank" rel="noopener noreferrer">Kuzikuu &amp; Toadgang archive ↗</a></p><a href="#top">Back to the surface ↑</a></div></footer>
+
+  <dialog id="lore-dialog" class="lore-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><header class="dialog-header"><a class="dialog-brand" href="https://github.com/toad-lore-fan-club/toadgang-lore" target="_blank" rel="noopener noreferrer">✳ &nbsp; THE LORE ARCHIVE</a><button type="button" class="dialog-close" id="close-dialog" aria-label="Close story">✕</button></header><div class="dialog-body" id="dialog-body"></div></div></dialog>
+  <script src="./data.js"></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
