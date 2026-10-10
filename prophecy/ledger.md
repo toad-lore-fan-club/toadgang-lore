@@ -13,7 +13,7 @@ Lines and claims were mined by telebot from the public toadgang archive and chec
 | patience-L1 | "free airdrops will be quickly sold" | [38023](https://t.me/toadgang/38023) (2024-03-28) | checkable on-chain | ❌ busted |
 | patience-L2 | "priority will be for those who hold 'with' conviction (777,777,777,777 + 777,777,777)" | [130865](https://t.me/toadgang/130865) (2024-04-07) | partly checkable | ⏳ pending |
 | patience-L3 | "time & patience required. $toby designed to reward long term loyalty" | [186119](https://t.me/toadgang/186119) (2024-04-14) | checkable on-chain | ✅ fulfilled |
-| patience-L4 | "Epoch 1 concludes... Toads who kept their sacred numbers and accumulated are marked" | [324214](https://t.me/toadgang/324214) (2024-07-20) | lore only | ⏳ pending |
+| patience-L4 | "Epoch 1 concludes... Toads who kept their sacred numbers and accumulated are marked" | [324214](https://t.me/toadgang/324214) (2024-07-20) | partly checkable | ◐ partly |
 | patience-L5 | "clock to zero? answer: intra timer resets + cohort 1. epoch 1 still in session" | [440679](https://t.me/toadgang/440679) (2024-12-27) | lore only | — n/a |
 | patience-L6 | "777,777,777. a number for the faithful. speculation fuels. patience rewards." | [430164](https://t.me/toadgang/430164) (2024-12-15) | lore only | — n/a |
 | patience-A | "chat claim: 2.32M $PATIENCE in vaults reserved for the loyal, claims from Jul 17 2025" | [534223](https://t.me/toadgang/534223) (2025-07-17) | checkable on-chain | ✅ fulfilled |
@@ -30,9 +30,7 @@ Lines and claims were mined by telebot from the public toadgang archive and chec
 
 **patience-L3.** The taboshi1 drop (Apr 2025) and the PATIENCE vault drop (Jul 2025) both happened on-chain.
 
-**patience-L4.** The Apr 2025 taboshi1 drop went to a fixed list of 5,725 wallets, but the 'sacred number' criterion isn't visible on-chain. *Caveat: The snapshot list is off-chain.*
-
-**patience-L4 context: the marked toads Merkle tree.** These are chat claims, not yet verified on-chain. The marked toads are said to be a Merkle claim tree of 1,854 wallets, each set for 1,254 PATIENCE ([538024](https://t.me/toadgang/538024)). The tree was reportedly built from the epoch-1 sacred-numbers snapshot that the taboshi.io checker also used ([670540](https://t.me/toadgang/670540), [668544](https://t.me/toadgang/668544)), and the roots are stored on the contract ([577046](https://t.me/toadgang/577046)). The math fits: 1,854 × 1,254 = 2,324,916, within about 1,000 of the 2,325,924.97 the vault was funded with. If so, about 1,300 marked wallets never claimed. The chat also reports an empty Merkle root slot on the reward router ([665906](https://t.me/toadgang/665906), [670552](https://t.me/toadgang/670552)). dripdrip is checking the vault root and the router slot.
+**patience-L4.** On-chain, the live PATIENCE vault's Merkle root (0x3467…28b3) matches its IPFS claim list of 1,854 wallets at 1,254 PATIENCE each, with no duplicates. All 547 claimers are on the list, and 1,307 listed wallets never claimed. About 1.64M PATIENCE was later pulled back, and the totals reconcile exactly. An abandoned earlier vault had a list of 1,622 wallets at 1,437 each, so the plan was resized before claims opened. *Caveat: The marked list is real, but whether 'kept their sacred numbers' was the criterion isn't visible on-chain. The chat says the list came from the epoch-1 sacred-numbers snapshot. The 'empty Merkle root slot' on a reward router wasn't found: neither revenue router has a root getter, though the router the chat means may be one not yet identified.*
 
 **patience-L5.** No on-chain test applies. *Caveat: This is a timing hint, and its eligibility list is off-chain.*
 
@@ -44,14 +42,16 @@ Lines and claims were mined by telebot from the public toadgang archive and chec
 
 **patience-C.** Every send out of the vault and Lockup paid exactly 1% to the Pond: 23,259.25 from campaign sends and 6,790.80 from Lockup sends. Refs: [1](https://basescan.org/address/0xBb0E97108dABe7fbf743537a38Ce064d03978E75)
 
-**patience-D.** 541 of 547 streams were cancelled before the cliff, and 671,629.86 PATIENCE was refunded to the deployer. Only 6 streams are still live. *Caveat: The chain doesn't show why the streams were cancelled. The chat's 'abandon your assets' rule is context only until dripdrip compares the cancelled wallets with the live ones.*
+**patience-D.** 541 of 547 streams were cancelled before the cliff, and 671,629.86 PATIENCE was refunded to the deployer. Only 6 streams are still live. All 541 cancellations were made by the PATIENCE deployer, and 532 of them came on Sep 4 2025, just before the cliff. *Caveat: The chain doesn't show why the streams were cancelled. The chat's 'abandon your assets' rule is context only until dripdrip compares the cancelled wallets with the live ones.*
+
+**patience-D context: a re-registration?** These are chat claims, not yet verified on-chain. The chat describes the Sep 4 2025 cancellations as a re-registration, not a penalty. Toads watched the streams being cancelled in batches ([576678](https://t.me/toadgang/576678), [576696](https://t.me/toadgang/576696)). A new claim was announced on the rune site ([576681](https://t.me/toadgang/576681), [576693](https://t.me/toadgang/576693)), with a reported extra 17% for those who held with conviction ([576657](https://t.me/toadgang/576657)). Some readers argue the streams that stayed live were the ones that failed the test ([576721](https://t.me/toadgang/576721)). The chat's count (538 + 9) differs from the chain's (532 on Sep 4, 9 earlier, 6 live). dripdrip is checking for a second vault paying about 1,467 per wallet.
 
 **patience-E.** On Apr 18 2025, 5,725 wallets each got at least 1,111 taboshi1, and about 251 got 11,111. The total was 8,887,155. *Caveat: Epoch-1 eligibility can't be verified because the list is off-chain.* Refs: [1](https://basescan.org/address/0x5c0bf08936bccfbb6af24b4648a9fb365caa2f4e), [2](https://basescan.org/tx/0x286a8a7bef5abad86dd1cdba3d278c544069f46a27cc9721cb3ce50f7f2f7138), [3](https://basescan.org/tx/0xcdacaaf435bcc08d7dadabeca3790544614cba34f35a99af3930ef65df82f97b)
 
 ### Open questions
 
-- What triggered the 541 stream cancellations? dripdrip is comparing the cancelled wallets with the 6 live ones.
-- The epoch-1 eligibility list and the PATIENCE Merkle data are off-chain.
+- Were the Sep 4 cancellations a re-registration into a second vault? dripdrip is checking.
+- The epoch-1 eligibility criterion is off-chain. The PATIENCE claim list itself is now verified against its Merkle root.
 - The Nov 2024 claim that TABOSHI appeared after 1111 taboshi1 mints hasn't been checked yet.
 
 ---
