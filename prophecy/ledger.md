@@ -4,7 +4,7 @@
 
 ## Entry 1: Patience airdrops (checked 2026-10-10)
 
-![Prophecy Scoreboard, entry 1: patience airdrops. 4 fulfilled, 3 partly, 1 pending, 1 busted](../assets/infographics/prophecy-scoreboard-1.png)
+![Prophecy Scoreboard, entry 1: patience airdrops. 4 fulfilled, 2 partly, 2 pending, 2 busted](../assets/infographics/prophecy-scoreboard-1.png)
 
 Lines and claims were mined by telebot from the public toadgang archive and checked on-chain by dripdrip.
 
@@ -19,7 +19,8 @@ Lines and claims were mined by telebot from the public toadgang archive and chec
 | patience-A | "chat claim: 2.32M $PATIENCE in vaults reserved for the loyal, claims from Jul 17 2025" | [534223](https://t.me/toadgang/534223) (2025-07-17) | checkable on-chain | ✅ fulfilled |
 | patience-B | "chat claim: vesting starts 7 weeks from claim, unlocking daily over 2 years" | [534435](https://t.me/toadgang/534435) (2025-07-17) | checkable on-chain | ◐ partly |
 | patience-C | "chat claim: 1% fee goes to the Pond" | [534209](https://t.me/toadgang/534209) (2025-07-17) | checkable on-chain | ✅ fulfilled |
-| patience-D | "chat claim: holders who abandon their Tobyworld assets lose their vault" | [534214](https://t.me/toadgang/534214) (2025-07-17) | checkable on-chain | ◐ partly |
+| patience-D1 | "chat claim: holders who abandon their Tobyworld assets lose their vault" | [534214](https://t.me/toadgang/534214) (2025-07-17) | checkable on-chain | ❌ busted |
+| patience-D2 | "chat claim: the Sep 4 cancels were a re-registration, with a new claim paying about 17% more" | [576657](https://t.me/toadgang/576657) (2025-09-04) | checkable on-chain | ⏳ pending |
 | patience-E | "chat claim: epoch-1 wallets received at minimum 1111 taboshi1 (Apr 2025)" | [500648](https://t.me/toadgang/500648) (2025-04) | checkable on-chain (amounts); eligibility off-chain | ✅ fulfilled |
 
 ### Details
@@ -42,15 +43,15 @@ Lines and claims were mined by telebot from the public toadgang archive and chec
 
 **patience-C.** Every send out of the vault and Lockup paid exactly 1% to the Pond: 23,259.25 from campaign sends and 6,790.80 from Lockup sends. Refs: [1](https://basescan.org/address/0xBb0E97108dABe7fbf743537a38Ce064d03978E75)
 
-**patience-D.** 541 of 547 streams were cancelled before the cliff, and 671,629.86 PATIENCE was refunded to the deployer. Only 6 streams are still live. All 541 cancellations were made by the PATIENCE deployer, and 532 of them came on Sep 4 2025, just before the cliff. *Caveat: The chain doesn't show why the streams were cancelled. The chat's 'abandon your assets' rule is context only until dripdrip compares the cancelled wallets with the live ones.*
+**patience-D1.** 541 of 547 streams were cancelled by the PATIENCE deployer: 9 early and 532 on Sep 4 2025, around the cliff ([largest batch](https://basescan.org/tx/0x221d3f3d0ab0ee1ba78138527d4ffedc468edacad7ec335de52e2a750ff8368a)). About 91% of the Sep 4 cancelled wallets (485 of 532) kept or grew their TOBY, and one wallet that stayed live dumped about 99.5%. As a balance rule, the claim doesn't match the chain. *Caveat: the cancels follow some rule that isn't visible on-chain, such as an off-chain list.*
 
-**patience-D context: a re-registration?** These are chat claims, not yet verified on-chain. The chat describes the Sep 4 2025 cancellations as a re-registration, not a penalty. Toads watched the streams being cancelled in batches ([576678](https://t.me/toadgang/576678), [576696](https://t.me/toadgang/576696)). A new claim was announced on the rune site ([576681](https://t.me/toadgang/576681), [576693](https://t.me/toadgang/576693)), with a reported extra 17% for those who held with conviction ([576657](https://t.me/toadgang/576657)). Some readers argue the streams that stayed live were the ones that failed the test ([576721](https://t.me/toadgang/576721)). The chat's count (538 + 9) differs from the chain's (532 on Sep 4, 9 earlier, 6 live). dripdrip is checking for a second vault paying about 1,467 per wallet.
+**patience-D2.** Chat described the Sep 4 cancels as a re-registration: toads watched streams being cancelled in batches ([576678](https://t.me/toadgang/576678), [576696](https://t.me/toadgang/576696)), a new claim was announced ([576681](https://t.me/toadgang/576681), [576693](https://t.me/toadgang/576693)) with a reported extra 17% for those who held ([576657](https://t.me/toadgang/576657)), and some argued the streams left live were the ones that failed ([576721](https://t.me/toadgang/576721)). On-chain, nothing has been funded: no PATIENCE transfer of 20,000 or more has gone to any contract since Jul 22 2025, and the 671,629.86 PATIENCE refunded from the cancelled streams is still with the deployer. *Caveat: dripdrip is watching for that PATIENCE to move or a new vault to appear. Either one would trigger a restamp.*
 
 **patience-E.** On Apr 18 2025, 5,725 wallets each got at least 1,111 taboshi1, and about 251 got 11,111. The total was 8,887,155. *Caveat: Epoch-1 eligibility can't be verified because the list is off-chain.* Refs: [1](https://basescan.org/address/0x5c0bf08936bccfbb6af24b4648a9fb365caa2f4e), [2](https://basescan.org/tx/0x286a8a7bef5abad86dd1cdba3d278c544069f46a27cc9721cb3ce50f7f2f7138), [3](https://basescan.org/tx/0xcdacaaf435bcc08d7dadabeca3790544614cba34f35a99af3930ef65df82f97b)
 
 ### Open questions
 
-- Were the Sep 4 cancellations a re-registration into a second vault? dripdrip is checking.
+- What rule decided the Sep 4 cancellations? It isn't visible on-chain.
 - The epoch-1 eligibility criterion is off-chain. The PATIENCE claim list itself is now verified against its Merkle root.
 - The Nov 2024 claim that TABOSHI appeared after 1111 taboshi1 mints hasn't been checked yet.
 
