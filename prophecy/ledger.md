@@ -4,7 +4,7 @@
 
 ## Entry 1: Patience airdrops (checked 2026-10-10)
 
-![Prophecy Scoreboard, entry 1: patience airdrops. 4 fulfilled, 2 partly, 2 pending, 1 busted](../assets/infographics/prophecy-scoreboard-1.png)
+![Prophecy Scoreboard, entry 1: patience airdrops. 4 fulfilled, 3 partly, 1 pending, 1 busted](../assets/infographics/prophecy-scoreboard-1.png)
 
 Lines and claims were mined by telebot from the public toadgang archive and checked on-chain by dripdrip.
 
