@@ -32,6 +32,8 @@ Lines and claims were mined by telebot from the public toadgang archive and chec
 
 **patience-L4.** The Apr 2025 taboshi1 drop went to a fixed list of 5,725 wallets, but the 'sacred number' criterion isn't visible on-chain. *Caveat: The snapshot list is off-chain.*
 
+**patience-L4 context: the marked toads Merkle tree.** These are chat claims, not yet verified on-chain. The marked toads are said to be a Merkle claim tree of 1,854 wallets, each set for 1,254 PATIENCE ([538024](https://t.me/toadgang/538024)). The tree was reportedly built from the epoch-1 sacred-numbers snapshot that the taboshi.io checker also used ([670540](https://t.me/toadgang/670540), [668544](https://t.me/toadgang/668544)), and the roots are stored on the contract ([577046](https://t.me/toadgang/577046)). The math fits: 1,854 × 1,254 = 2,324,916, within about 1,000 of the 2,325,924.97 the vault was funded with. If so, about 1,300 marked wallets never claimed. The chat also reports an empty Merkle root slot on the reward router ([665906](https://t.me/toadgang/665906), [670552](https://t.me/toadgang/670552)). dripdrip is checking the vault root and the router slot.
+
 **patience-L5.** No on-chain test applies. *Caveat: This is a timing hint, and its eligibility list is off-chain.*
 
 **patience-L6.** No on-chain test applies.
