@@ -6,6 +6,8 @@ on:
       - "theories/**"
       - "schema/**"
       - "scripts/**"
+      - "onchain/**"
+      - "tests/**"
   push:
     branches:
       - main
@@ -13,6 +15,8 @@ on:
       - "theories/**"
       - "schema/**"
       - "scripts/**"
+      - "onchain/**"
+      - "tests/**"
 
 jobs:
   validate:
@@ -27,7 +31,10 @@ jobs:
           node-version: "20"
 
       - name: Validate schema (no dist write)
-        run: node scripts/build.js --validate-only --verbose
+        run: |
+          node scripts/build.js --validate-only --verbose
+          node scripts/build-onchain.js --validate-only --verbose
+          node --test tests/build-onchain.test.js
 
   build:
     name: Rebuild dist/
@@ -47,7 +54,9 @@ jobs:
           node-version: "20"
 
       - name: Build JSONL + index
-        run: node scripts/build.js --verbose
+        run: |
+          node scripts/build.js --verbose
+          node scripts/build-onchain.js --verbose
 
       - name: Commit dist/ if changed
         run: |

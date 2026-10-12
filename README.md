@@ -10,6 +10,7 @@ The canonical lore archive for Toadgang. Human-readable theories in Markdown. Ag
 
 ```
 theories/     Markdown source files — one per theory, organized by category
+onchain/      Community-documented onchain fact sheets (not lore theories)
 schema/       JSON schema that every theory frontmatter must pass
 scripts/      Build script that generates dist/ from theories/
 dist/         Auto-generated agent artifacts (do not edit manually)
@@ -22,6 +23,24 @@ assets/       Infographics and other supporting media
 |------|-------------|
 | `dist/theories.jsonl` | One JSON record per line. Ingest this for agent use. |
 | `dist/index.json` | Full manifest: metadata, category list, confidence averages. |
+| `dist/onchain-facts.jsonl` | Sourced onchain fact sheets, kept separate from theories. |
+
+---
+
+## For agents: onchain fact sheets
+
+The onchain documents have a **separate** feed: `dist/onchain-facts.jsonl`.
+Run `node scripts/build-onchain.js` to produce it, or
+`node scripts/build-onchain.js --validate-only` to check input only.
+The CI workflow validates and rebuilds it when `onchain/` changes.
+
+Each JSONL record includes the source Markdown and path, SHA-256 content hash,
+external evidence links, level-2 sections, and the **author-reported** last verified
+date. It explicitly states that the exporter **does not independently verify the
+blockchain**. Consumers should re-check time-sensitive claims against their
+primary evidence before describing them as current facts.
+
+Run the tests with `node --test tests/build-onchain.test.js`.
 
 ---
 
