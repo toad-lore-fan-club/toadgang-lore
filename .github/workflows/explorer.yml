@@ -1,0 +1,37 @@
+name: Lore Explorer Checks
+
+on:
+  pull_request:
+    paths:
+      - "explorer/**"
+      - "tests/explorer-data.test.js"
+      - ".github/workflows/explorer.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "explorer/**"
+      - "tests/explorer-data.test.js"
+      - ".github/workflows/explorer.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  explorer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Check JavaScript syntax
+        run: |
+          node --check explorer/data.js
+          node --check explorer/app.js
+      - name: Run explorer tests
+        run: node --test tests/explorer-data.test.js
+      - name: Validate real lore archive
+        run: |
+          node scripts/build.js --validate-only
+          node -e 'const fs=require("node:fs");const D=require("./explorer/data.js");const rows=D.parseJsonl(fs.readFileSync("dist/theories.jsonl","utf8"));if(!rows.length)process.exit(1);console.log("Explorer read",rows.length,"archive records")'

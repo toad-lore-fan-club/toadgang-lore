@@ -31,6 +31,12 @@ Browse the `theories/` folder. Each `.md` file is a full theory write-up with so
 
 Want to contribute? Read [CONTRIBUTING.md](./CONTRIBUTING.md). Open a PR.
 
+### Visual lore explorer (optional)
+
+The [Living Lore explorer](./explorer/) provides a mobile-friendly way to read the community archive, search theories, and follow the original evidence. It is a static presentation layer; `theories/` and `dist/theories.jsonl` remain the source of truth.
+
+Preview from the repository root with `python3 -m http.server 4173 --bind 127.0.0.1`, then open `http://127.0.0.1:4173/explorer/`. No build or account is required.
+
 ---
 
 ## For agents
